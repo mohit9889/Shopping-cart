@@ -1,0 +1,77 @@
+<div class="cart_section">
+		<div class="section_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="cart_container">
+							
+							<!-- Cart Bar -->
+							<div class="cart_bar">
+								<ul class="cart_bar_list item_list d-flex flex-row align-items-center justify-content-start">
+									<li>Product</li>
+									<li>Color</li>
+									<li>Size</li>
+									<li>Price</li>
+									<li>Quantity</li>
+									<li>Total</li>
+								</ul>
+							</div>
+
+							<!-- Cart Items -->
+							<div class="cart_items">
+								<ul class="cart_items_list">
+
+									<!-- Cart Item -->
+									<li class="cart_item item_list d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+										<div class="cart_product d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+											<div><div class="cart_product_image"><img src="../../../../assets/images/cart_1.jpg" alt=""></div></div>
+											<div class="product_name"><a routerLink="/product">Brown Shoulder Bag</a></div>
+										</div>
+										<div class="product_color text-lg-center product_text"><span>Color: </span>Brown</div>
+										<div class="product_size text-lg-center product_text"><span>Size: </span>One Size</div>
+										<div class="product_price text-lg-center product_text"><span>Price: </span>$19.50</div>
+										<div class="product_quantity_container">
+											<div class="product_quantity ml-lg-auto mr-lg-auto text-center">
+												<span class="product_text product_num">1</span>
+												<div class="qty_sub qty_button trans_200 text-center"><span>-</span></div>
+												<div class="qty_add qty_button trans_200 text-center"><span>+</span></div>
+											</div>
+										</div>
+										<div class="product_total text-lg-center product_text"><span>Total: </span>$19.50</div>
+									</li>
+								</ul>
+							</div>
+
+							<!-- Cart Buttons -->
+							<div class="cart_buttons d-flex flex-row align-items-start justify-content-start">
+								<div class="cart_buttons_inner ml-auto d-flex flex-row align-items-start justify-content-start flex-wrap">
+									<div class="cart_button cart_button_continue trans_200"><a routerLink="/categories">continue shopping</a></div>
+									<div class="cart_button cart_button_clear trans_200"><a routerLink="/categories">clear cart</a></div>
+									<div class="cart_button cart_button_update trans_200"><a routerLink="/categories">update cart</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart_section_container cart_extra_container">
+			<div class="cart_container">
+				<div class="row">
+
+					<!-- Shipping & Delivery -->
+					<div class="col-xxl-6">
+						<app-coupon-section></app-coupon-section>
+					</div>
+					
+
+					<!-- Check Out Section -->
+					<div class="col-xxl-6">
+						<app-check-out-section></app-check-out-section>
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>

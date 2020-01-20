@@ -1,0 +1,63 @@
+/*********************************
+6. Home
+*********************************/
+
+.ahome
+{
+	width: 100%;
+	height: 332px;
+}
+.ahome_container
+{
+	position: absolute;
+	left: 0;
+	bottom: 98px;
+	width: 100%;
+}
+.ahome_content
+{
+	padding-left: 160px;
+}
+.ahome_title
+{
+	font-size: 72px;
+	font-weight: 300;
+	color: #414141;
+	line-height: 0.75;
+}
+.breadcrumbs
+{
+	margin-top: 20px;
+}
+.breadcrumbs ul li
+{
+	position: relative;
+}
+.breadcrumbs ul li:not(:last-child)::after
+{
+	display: inline-block;
+	content: '/';
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.breadcrumbs ul li,
+.breadcrumbs ul li a
+{
+	font-size: 16px;
+	font-weight: 700;
+	color: #8f8f8f;
+}
+.breadcrumbs ul li a
+{
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.breadcrumbs ul li a:hover
+{
+	color: #414141;
+}
